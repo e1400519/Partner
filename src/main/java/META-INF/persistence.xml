@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="se">
+		<class>se.Partner</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql.cc.puv.fi:3306/e1400519_Partner"/>
+			<property name="javax.persistence.jdbc.user" value="e1400519"/>
+			<property name="javax.persistence.jdbc.password" value="d9j3GZJpcPWv"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>
