@@ -8,7 +8,7 @@ import java.util.List;
 /*
  * Class implements DAO (data access object) method to CRUD POJO to database
  */
-public class MaterialDao {
+public class PartnerDao {
 	private Partner dao;
 
 	public Partner getDao() {
